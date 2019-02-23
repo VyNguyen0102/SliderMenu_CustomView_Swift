@@ -210,13 +210,16 @@
 				TargetAttributes = {
 					04EE0E371C22DD3D0021A64F = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0830;
 					};
 					04EE0E4E1C22DD3E0021A64F = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0830;
 						TestTargetID = 04EE0E371C22DD3D0021A64F;
 					};
 					04EE0E591C22DD3E0021A64F = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0830;
 						TestTargetID = 04EE0E371C22DD3D0021A64F;
 					};
 				};
@@ -423,6 +426,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VVLab.SliderMenuSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -434,6 +438,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VVLab.SliderMenuSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -445,6 +450,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VVLab.SliderMenuSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SliderMenuSwift.app/SliderMenuSwift";
 			};
 			name = Debug;
@@ -457,6 +463,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VVLab.SliderMenuSwiftTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SliderMenuSwift.app/SliderMenuSwift";
 			};
 			name = Release;
@@ -468,6 +475,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VVLab.SliderMenuSwiftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = SliderMenuSwift;
 				USES_XCTRUNNER = YES;
 			};
@@ -480,6 +488,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VVLab.SliderMenuSwiftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = SliderMenuSwift;
 				USES_XCTRUNNER = YES;
 			};
@@ -504,6 +513,7 @@
 				04EE0E651C22DD3F0021A64F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04EE0E661C22DD3F0021A64F /* Build configuration list for PBXNativeTarget "SliderMenuSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +522,7 @@
 				04EE0E681C22DD3F0021A64F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04EE0E691C22DD3F0021A64F /* Build configuration list for PBXNativeTarget "SliderMenuSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +531,7 @@
 				04EE0E6B1C22DD3F0021A64F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
