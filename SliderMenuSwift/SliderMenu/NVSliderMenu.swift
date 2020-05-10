@@ -57,6 +57,7 @@ class NVSliderMenu: UIView , UIGestureRecognizerDelegate {
             self.layer.shadowOffset = CGSize(width: kSHADOW_OFFSET,height: kSHADOW_OFFSET)
         } else {
             self.layer.shadowOffset = CGSize(width: 0,height: 0)
+            self.layer.shadowOpacity = 0.0
         }
     }
     //
@@ -90,7 +91,7 @@ class NVSliderMenu: UIView , UIGestureRecognizerDelegate {
         panRecognizer.delegate = self
         self.superview!.addGestureRecognizer(panRecognizer);
     }
-    func movePanel(_ sender:UIPanGestureRecognizer) {
+    @objc func movePanel(_ sender:UIPanGestureRecognizer) {
         sender.view?.layer.removeAllAnimations()
         if(sender.state == UIGestureRecognizerState.began){
             availableTouchPoint = fabs(sender.location(in: self).x - self.frame.size.width) < kTOUCH_AREA
